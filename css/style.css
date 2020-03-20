@@ -89,11 +89,33 @@
     padding-bottom: 30px;
 }
 
+.verbiage2 {
+    border: 2px solid #4D7AF5;
+    width: 750px;
+    margin-top: 35px;
+    padding: 0px;
+    padding-bottom: 30px;
+}
+
 .caseheader {
     margin: 0px;
     position: relative;
     top: -30px;
     left: -15px;
+}
+
+.caseheader2 {
+    margin-top: 35px;
+    padding: 0px 20px;
+}
+
+.caseheader3 {
+    margin: 0px;
+    position: relative;
+    top: -30px;
+    left: -17px;
+    background-color: #fff;
+    width: fit-content;
 }
 
 .bluetext {
@@ -104,8 +126,17 @@
 .aboutme2 {
     margin: 0px;
     padding: 0px 20px;
-    line-height: 23px;
+    line-height: 26px;
 }
+
+.bulletpoints{
+    margin: 0px;
+    padding: 0px 60px;
+    line-height: 26px;
+    margin-top: 10px;
+}
+
+
 
 .topnav a.active {
     color: 4D7AF5;
@@ -152,6 +183,33 @@
 .hamburger{
     display: none !important;
 }
+
+.caseimages{
+width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.caseimages_fixed{
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gifs{
+    width: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gif_row{
+    flex-direction: row;
+    display: flex;
+}
+
 
 @media (max-width: 768px) {
     .sidebar {

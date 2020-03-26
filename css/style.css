@@ -129,6 +129,13 @@
     line-height: 26px;
 }
 
+.paragraph_spacing {
+    margin: 0px;
+    padding: 0px 20px;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
 .bulletpoints{
     margin: 0px;
     padding: 0px 60px;

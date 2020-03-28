@@ -1,68 +1,92 @@
 <html>
-
-<head>
-    <Title>about me.</Title>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+  <head>
+    <title>about me.</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-
-<body>
-    <div class="container main">
-        <div class="row">
-            <div class="col-2">
-                <div style="position: fixed;">
-                    <img class="profile" src="images/image1.png">
-                    <div class="topnav">
-                        <a href="./index.html">design.</a>
-                        <a href="#design">illustrations.</a>
-                        <a href="https://www.mylanle.com/store"target="_blank">shop.</a>
-                        <a class="active" href="./about.html">about me.</a>
-                    </div>
-                    <div class="socialmedia">
-                        <img src="images/instagram.png">
-                        <img src="images/linkedin.png">
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="col">
-                <div class="title">
-                    <h1 class="mylanle">mylan le.</h1>
-                    <h2 class="subtitle">ux/ui designer & illustrator</h2>
-                </div>
-
-                <img class="homebanner" src="images/Group 1.png">
-                <div class="verbiage container">
-                    <h1 class="caseheader bluetext"> about me.</h1>
-                    <p class="aboutme2">Hello! My name is Mylan [mee-lan]. I graduated in 2017 at Virginia Polytechnic
-                        State and
-                        University with a BFA in Studio Arts and Design. Currently I am attending UC Berkeley Extension
-                        to
-                        receive my certificate in UX/UI Design. Currently I am a full-time graphic designer in the San
-                        Francisco
-                        Bay Area but hope to transition careers into the User Interface field. Outside of that, I am a
-                        hardcore
-                        TV binge-watcher, video gamer, and bubbly illustrator. Something special about me is that I
-                        can’t stick
-                        to one style of art. I love graphic design, but I also love telling stories through
-                        illustrating. I get
-                        inspired by too many things and I love trying them all out. Art has pretty much stuck with me
-                        since I
-                        was born (drew a lot of manga as a kid), and I would like to explore as much as possible to be a
-                        better
-                        artist for myself.</p>
-                    <p class="resume">resume.</p>
-                </div>
-            </div>
-        </div>
+  <body>
+    <div id="mobilemenu" class="mobilemenu hidden">
+      <i
+        id="close"
+        class="fas fa-times closebutton"
+        style="font-size: 30px;"
+      ></i>
+      <div class="mobilenav">
+        <a href="./index.html">design.</a>
+        <a href="./illustration.html">illustrations.</a>
+        <a href="https://www.mylanle.com/store" target="_blank">shop.</a>
+        <a class="active" href="./about.html">about me.</a>
+      </div>
     </div>
-</body>
+    <div id="content" class="container main">
+      <div class="row">
+        <div class="col-2 sidebar-container">
+          <div class="sidebar">
+            <a href="index.html"><img class="profile" src="images/image1.png"></a>
+            <div class="topnav">
+              <a href="./index.html">design.</a>
+              <a href="./illustration.html">illustrations.</a>
+              <a href="https://www.mylanle.com/store" target="_blank">shop.</a>
+              <a class="active" href="./about.html">about me.</a>
+            </div>
+            <div class="socialmedia">
+              <a
+                href="https://www.instagram.com/mooliniart/?hl=en"
+                target="_blank"
+                ><img src="images/instagram.png"
+              /></a>
 
+              <a href="https://www.linkedin.com/in/lemylan/" target="_blank"
+                ><img src="images/linkedin.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="title">
+            <h1 class="mylanle">mylan le.</h1>
+            <h2 class="subtitle">ux/ui designer & illustrator</h2>
+          </div>
+
+          <img class="homebanner" src="images/Group 1.png" />
+          <div class="verbiage container">
+            <h1 class="caseheader bluetext">about me.</h1>
+            <p class="aboutme2">
+              Hello! My name is Mylan [mee-lan]. I graduated at Virginia
+              Tech with a B.F.A in Studio Arts, minor in Product Design and
+              acquired knowledge in UX/UI through UC Berkeley Extension Program.
+              I love working collaboratively with a like-minded team to
+              ensure optimal results for user-centered and technology-centered
+              designs. Currently, I am a full-time graphic designer at the Print
+              Cafe, Inc. I find that working from the Print Cafe has opened up
+              the opportunity to work with many clients' projects and brands
+              such as designing logos, infographics, and digital and printable
+              marketing materials. During my free time, I am currently building
+              up and working on illustrations and an online store selling my
+              prints and apparel.
+            </p>
+            <p class="paragraph_spacing">
+            <a href="images/Mylan_Resume (1).pdf" target="_blank">
+                my resume</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

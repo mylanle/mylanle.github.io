@@ -161,6 +161,13 @@
 .redbutton {
     background-color: #FF777C !important;
     color: #fff !important;
+    transition: all linear 1s;
+}
+.redbutton:hover {
+    background-color: #ed555b !important;
+}
+.redbutton:active {
+    background-color: #cc393f !important;
 }
 
 .subheader {

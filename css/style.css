@@ -89,6 +89,14 @@
     padding-bottom: 30px;
 }
 
+.graphicdesign {
+    background-color: rgb(252, 241, 241);
+    width: 750px;
+    margin-top: 35px;
+    padding: 0px;
+    padding-bottom: 30px;
+}
+
 .verbiage2 {
     border: 2px solid #4D7AF5;
     width: 750px;
@@ -122,11 +130,23 @@
     color: #4D7AF5;
 }
 
+.redtext {
+    color: #FF777C;
+}
+
 
 .aboutme2 {
     margin: 0px;
     padding: 0px 20px;
     line-height: 26px;
+}
+
+.centertext {
+    margin: 0px;
+    padding: 0px 20px;
+    text-align: center;
+    line-height: 26px;
+
 }
 
 .paragraph_spacing {
@@ -170,6 +190,18 @@
     background-color: #cc393f !important;
 }
 
+.bluebutton {
+    background-color: #4D7AF5 !important;
+    color: #fff !important;
+    transition: all linear 1s;
+}
+.bluebutton:hover {
+    background-color: rgb(50, 102, 245) !important;
+}
+.bluebutton:active {
+    background-color: rgb(15, 79, 255) !important;
+}
+
 .subheader {
     color: #707070;
 }
@@ -211,8 +243,40 @@ width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
+.graphicdesignimages{
+    max-width: 91%;
+    max-height: 100%;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.graphicdesign_fixed{
+    width: 95%;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.graphicdesign_fixed2{
+    width: 95%;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linebreak{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
 .gifs{
-    width: 25%;
+    width: 45%;
     margin-top: 30px;
     margin-bottom: 30px;
     display: block;
@@ -220,6 +284,16 @@ width: 100%;
     margin-right: auto;
 }
 .gif_row{
+    flex-direction: row;
+    display: flex;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image_row{
     flex-direction: row;
     display: flex;
 }
